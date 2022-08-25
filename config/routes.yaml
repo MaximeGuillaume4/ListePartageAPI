@@ -1,3 +1,12 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+api_refresh_token:
+    path: /api/token/refresh
+
+api_token_invalidate:
+    path: /api/token/invalidate
+
+api_login:
+    path: /api/login
